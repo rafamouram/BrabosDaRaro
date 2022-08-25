@@ -23,7 +23,7 @@ describe('Entrar', () => {
     })
 
     it('Login Usuário vazio', () => {
-        POSTentrar.loginSenhaErrada().should((response) => {
+        POSTentrar.loginVazio().should((response) => {
             expect(response.status).to.eq(401)
             expect(response.body.message).to.eq("Unauthorized")
         })

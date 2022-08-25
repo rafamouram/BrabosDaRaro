@@ -36,7 +36,8 @@ class POSTEntrar {
             method: "POST",
             url: "/auth/login",
             failOnStatusCode: false,
+            body: userVazio
         })
     }
 }
-export var POSTentrar = new POSTEntrar();
+export var POSTentrar = new POSTEntrar()
