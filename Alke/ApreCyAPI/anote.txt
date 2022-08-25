@@ -1,0 +1,2 @@
+Não iremos testar por enquanto:
+- Trocar senha = difícil achar o token
